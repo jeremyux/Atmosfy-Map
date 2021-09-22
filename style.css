@@ -1,0 +1,151 @@
+html,body {
+    font-family: "proxima nova";
+    color: #fff;
+    margin: 0;
+}
+html {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+  }
+  body {
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background: url(../img/map.png) repeat 0 0;
+    background-position-x: center;
+    background-position-y: center;
+  }
+
+/* APP STORE BANNER */
+
+.topBanner {
+    height: 29px;
+    border-bottom: 1px #9c9c9c solid;
+    width: 100%;
+    padding: 8px 16px;
+    background-color: #000;
+}
+.leftBanner .restaurantIcon{
+    left: 0;
+    display: inline-block;
+}
+.imageSm {
+    display: none;
+}
+@media (max-width:375px) {
+    .imageLg {
+        display: none;
+    }
+    .imageSm {
+        display: block !important;
+    }
+}
+.appCta {
+    color: #fff;
+    right: 0;
+    display: inline-block;
+    height: 28px;
+    width: 94px;
+    background-color: #D32D7C;
+    text-align: center;
+    border-radius: 2px;
+    margin-right: 16px;
+}
+.ctaCopy {
+    font-size: 10px;
+    margin: 8px;
+    font-family: "proxima nova", san-sefif, bold;
+}
+.absolute {
+    position: absolute;
+}
+
+/* RESTAURANT + PREVIEW */
+.top {
+    padding: 16px 0 0 16px;
+}
+
+.backArrow {
+    padding-bottom: 8px;
+}
+.preview {
+    height: 208px;
+    width: 120px;
+    background: #9c9c9c;
+    border-radius: 4px;
+    right: 0;
+    display: inline-block;
+    top: 60px;
+    margin-right: 16px;
+}
+@media (max-width:375px) {
+    .preview {
+        width: 90px!important;
+        height: 156px;
+    }
+}
+.gradientTop {
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(0,0,0,0.58) 35%, rgba(0,0,0,0) 100%);
+    height: 148px;
+    width: 100%;
+    top: 46px;
+    position: absolute;
+    z-index: -1;
+}
+/* Flippers */
+.flippers{
+    top: 50%;
+    width: 100%;
+}
+.leftFlipper {
+    padding-left: 16px;
+    float: left;
+    position: relative;
+}
+.rightFlipper {
+    padding-right: 16px;
+    float: right;
+    position: relative;
+}
+/* BOTTOM */
+.bottom {
+    bottom: 0;
+    width: 100%;
+    display: inline-flex;
+}
+
+.userContent {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.showMore {
+    float: right;
+    padding-right: 54px;
+    display: inline-block;
+    position: relative;
+}
+
+.controls {
+    right: 0;
+    margin-right: 16px;
+    bottom: 40px;
+}
+
+.ugc {
+    width: 100%;
+    padding: 0 0 16px 16px;
+}
+.copy {
+    margin: 4px 0;
+}
+/* Gradiant Bottom */
+.gradientBottom {
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(0,0,0,0.58) 35%, rgba(0,0,0,0) 100%);
+    height: 148px;
+    width: 100%;
+   bottom: 0;
+    position: absolute;
+    z-index: -1;
+}
